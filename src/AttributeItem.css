@@ -1,0 +1,29 @@
+.Attribute {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ cursor: pointer;
+ padding: 1px 6px;
+ min-width: 50px;
+ margin-top: 10px;
+ margin-right: 10px;
+ background-color: #e9f1fd;
+ box-shadow: 0px 1px 10px -3px rgba(0, 0, 0, 0.12), 0px 2px 4px -3px rgba(0, 0, 0, 0.2);
+}
+
+.AttibuteName {
+ font-size: 11px;
+ margin: 0;
+ color: #307df1;
+ font-weight: 500;
+}
+
+.Cross {
+ margin: 0;
+ height: 100%;
+ transform: rotate(45deg);
+ color: #307df1;
+ cursor: pointer;
+ font-size: 18px;
+ margin-left: 10px;
+}

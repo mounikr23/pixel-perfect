@@ -1,0 +1,43 @@
+.DefaultButton {
+ position: relative;
+ background-color: #307df1;
+ color: #fff;
+ padding: 6px 15px;
+ font-size: 11px;
+ margin-left: 20px;
+ border-radius: 3px;
+ min-width: 85px;
+ font-weight: 600;
+ cursor: pointer;
+ border: 1px solid transparent;
+ box-shadow: 0px 1px 10px -3px rgba(0, 0, 0, 0.12), 0px 2px 4px -3px rgba(0, 0, 0, 0.2);
+}
+
+.SecondaryButton {
+ background-color: #fff;
+ color: #307df1;
+}
+
+.chevronRight::after {
+ content: ' ';
+ width: 5px;
+ height: 5px;
+ border-right: 2px solid white;
+ border-bottom: 2px solid white;
+ transform: rotate(-45deg);
+ position: absolute;
+ top: 10px;
+ right: 18px;
+}
+
+.chevronLeft::after {
+ content: ' ';
+ width: 5px;
+ height: 5px;
+ border-right: 2px solid #307df1;
+ border-bottom: 2px solid #307df1;
+ transform: rotate(135deg);
+ position: absolute;
+ top: 9px;
+ left: 8px;
+}
